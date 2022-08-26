@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200;400&family=Noto+Sans&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Albert Sans',
+        sans-serif;
+}
+
+input:focus,
+a:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #d0cedf;
+    opacity: 0.7;
+}
+
+.logo_name {
+    font-family: 'Noto Sans',
+        sans-serif;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #140b5c;
+}
+
+footer * {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .top,
+footer .bottom_text,
+.link-boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .link-boxes {
+    padding: 10px 0 20px;
+    flex: 1 1 1 1 4;
+}
+
+footer .top {
+    padding: 30px 0;
+}
+
+footer .top .logo-details {
+    font-size: 28px;
+}
+
+footer .content {
+    position: relative;
+}
+
+footer .content::after {
+    content: '';
+    display: inline-block;
+    border-bottom: 1.8px solid #afafb6;
+    max-width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    /* since pseudo of flex is also flex child */
+}
+
+.box {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.box li {
+    padding-bottom: 10px;
+}
+
+.box li:not(.link_name) *,
+footer .bottom_text * {
+    color: #cfceda;
+    font-size: 14px;
+}
+
+.policy_terms a:first-child,
+.copyright_text a {
+    margin-right: 10px;
+}
+
+.box li.link_name::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #fff;
+    width: 30px;
+    margin-top: 2px;
+}
+
+footer .bottom-details {
+    background: #0e0841;
+    padding: 20px 0;
+}
+
+footer .box.input-box {
+    width: 17rem;
+}
+
+footer .box.input-box input {
+    padding: 10px;
+    display: block;
+    border: 1.5px solid #d0cedf;
+    background: transparent;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer .box.input-box [type*="button"] {
+    background: #d0cedf;
+    border: none;
+    color: #140b5c;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer .media-icons a {
+    text-align: center;
+    margin-right: 16px;
+}
+
+footer .media-icons a i {
+    width: 20px;
+    /* border: 1px solid; */
+    padding: 10px 8px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.fa-facebook-f {
+    background-color: #4267b2;
+}
+
+.fa-twitter {
+    background-color: #1ea1f1;
+}
+
+.fa-instagram {
+    background-color: #e12f6d;
+}
+
+.fa-linkedin-in {
+    background-color: #0277b5;
+}
+
+.fa-youtube {
+    background-color: #ff0000;
+}

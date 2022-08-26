@@ -1,0 +1,76 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Sansita+Swashed:wght@600&display=swap');
+
+body {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.form {
+    background-color: #15172b;
+    padding: 40px 20px;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 238px;
+}
+
+.form .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.subtitle {
+    margin-bottom: 30px;
+}
+
+.input-container {
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.input-container input,
+.form .submit {
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+
+.form .submit {
+    background: #0088dd;
+    margin-top: 5px;
+    padding: 14px;
+}
+
+.input-container input {
+    background: #303246;
+    text-indent: 5px;
+    padding: 12px;
+    text-transform: capitalize;
+    width: -webkit-fill-available;
+}
+
+#email {
+    text-transform: unset;
+}
+
+.input-container label.placeholder {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    color: #65657b;
+}
+
+input:focus~label,
+input:not(:placeholder-shown)~label {
+    display: none
+}

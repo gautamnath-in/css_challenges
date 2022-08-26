@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Montserrat:wght@800&display=swap');
+
+body {
+    height:100vh;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    font-size: 14px;
+}
+.footer{
+    margin-top: auto;
+}
+.footer .content {
+    margin: 0 auto;
+    width: 80%
+}
+
+.footer .heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    margin-left: 11.5%
+}
+
+.footer .content {
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .1)
+}
+
+.footer h4 {
+    color: #000;
+    font-weight: 700;
+    font-family: "Karla", sans-serif
+}
+
+.footer a {
+    color: #2c2c2c;
+    text-decoration: none
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+.footer hr{
+    padding-bottom: 20px;
+      border: 0;
+      border-top: 2px solid #9a9a9a55;
+}

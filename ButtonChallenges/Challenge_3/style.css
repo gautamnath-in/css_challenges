@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap');
+body{
+    background: rgb(207, 223, 224);
+    background: linear-gradient(124deg, rgba(207, 223, 224, 1) 0%, rgba(207, 223, 224, 1) 96%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cfdfe0", endColorstr="#cfdfe0", GradientType=1);
+}
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+
+a.btn {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #14356B;
+    color: #fff;
+    padding: 25px 50px;
+    border-radius: 40px;
+    font-family: 'Josefin Sans',
+    sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    filter: drop-shadow(0 4mm 0.75rem #87949d);
+}

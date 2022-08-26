@@ -1,0 +1,28 @@
+body{
+    background-color: #000;
+}
+.div__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+
+a.btn {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid #ffff00;
+    border-radius: 10px;
+    transition: filter .2s;
+}
+.div__btn .btn:hover {
+        filter: drop-shadow(0 1px 2.5mm #ffff00);
+}
